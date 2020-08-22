@@ -15,6 +15,7 @@
 		80F2768624F1581A00636D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F2768424F1581A00636D27 /* LaunchScreen.storyboard */; };
 		80F2769124F1581A00636D27 /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2769024F1581A00636D27 /* SeeFoodTests.swift */; };
 		80F2769C24F1581A00636D27 /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2769B24F1581A00636D27 /* SeeFoodUITests.swift */; };
+		80F276AA24F15ACA00636D27 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 80F276A924F15ACA00636D27 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		80F2769724F1581A00636D27 /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2769B24F1581A00636D27 /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		80F2769D24F1581A00636D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F276A924F15ACA00636D27 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,11 @@
 		80F2767824F1581700636D27 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				80F276AB24F1644F00636D27 /* Resources */,
 				80F2767924F1581700636D27 /* AppDelegate.swift */,
 				80F2767B24F1581700636D27 /* SceneDelegate.swift */,
 				80F2767D24F1581700636D27 /* ViewController.swift */,
 				80F2767F24F1581700636D27 /* Main.storyboard */,
-				80F2768224F1581A00636D27 /* Assets.xcassets */,
-				80F2768424F1581A00636D27 /* LaunchScreen.storyboard */,
 				80F2768724F1581A00636D27 /* Info.plist */,
 			);
 			path = SeeFood;
@@ -126,6 +127,16 @@
 				80F2769D24F1581A00636D27 /* Info.plist */,
 			);
 			path = SeeFoodUITests;
+			sourceTree = "<group>";
+		};
+		80F276AB24F1644F00636D27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80F2768424F1581A00636D27 /* LaunchScreen.storyboard */,
+				80F2768224F1581A00636D27 /* Assets.xcassets */,
+				80F276A924F15ACA00636D27 /* Inceptionv3.mlmodel */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2767E24F1581700636D27 /* ViewController.swift in Sources */,
+				80F276AA24F15ACA00636D27 /* Inceptionv3.mlmodel in Sources */,
 				80F2767A24F1581700636D27 /* AppDelegate.swift in Sources */,
 				80F2767C24F1581700636D27 /* SceneDelegate.swift in Sources */,
 			);
